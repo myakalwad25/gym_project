@@ -20,6 +20,7 @@ function Navbar() {
     setSpin(true);
   };
 
+  
   const stopSpin = () => {
     setSpin(false);
   };
