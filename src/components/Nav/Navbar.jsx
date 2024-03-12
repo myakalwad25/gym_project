@@ -20,7 +20,7 @@ function Navbar() {
     setSpin(true);
   };
 
-  
+
   const stopSpin = () => {
     setSpin(false);
   };
@@ -62,12 +62,13 @@ function Navbar() {
         }`}
       >
         <Link to="/">
-          <img
+          {/* <img
             src={Logo}
             alt="logo_img"
             onClick={goTop}
             className="w-full h-auto"
-          />
+          /> */}
+          <h1 className="text-white text-4xl font-medium">GymMate</h1>
         </Link>
         <div className="navlist-nav">
           <NavList />

@@ -18,8 +18,8 @@ function TrainerBox() {
 
   const trainers = [
     { img: Trainer1, name: "John Lewis", job: "Yoga Trainer" },
-    { img: Trainer2, name: "Jonathan Doe", job: "Crossfit Trainer" },
-    { img: Trainer3, name: "Ana June", job: "Personal Trainer" },
+    { img: Trainer2, name: "Jonathan ", job: "Crossfit Trainer" },
+    { img: Trainer3, name: "Ana Jake", job: "Personal Trainer" },
   ];
 
   return (
@@ -30,8 +30,8 @@ function TrainerBox() {
       >
         {trainers.map((train, id) => (
           <div
-            onMouseEnter={hoverBox}
-            onMouseLeave={hoverBoxRemove}
+            // onMouseEnter={hoverBox}
+            // onMouseLeave={hoverBoxRemove}
             key={id}
             className="relative cursor-pointer w-[35rem] min450:w-full flex flex-col select-none"
           >
